@@ -1,0 +1,24 @@
+# More flexible requirements to find pre-compiled wheels
+
+# Core ML & Data Science
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# Deep Learning - PyTorch
+torch
+torchvision
+
+# Deep Learning - NLP
+transformers
+sentence-transformers
+datasets
+nltk
+
+# UI Framework
+streamlit
+
+# Utilities
+tqdm

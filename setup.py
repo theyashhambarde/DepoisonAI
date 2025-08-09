@@ -16,7 +16,7 @@ setup(
     package_dir={'': 'src'},
     classifiers=[
         'Programming Language :: Python :: 3.9',
-        'License :: Other/Proprietary License', # Updated to reflect proprietary license
+        'License :: Other/Proprietary License',
         'Operating System :: OS Independent',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
         'Topic :: Security',

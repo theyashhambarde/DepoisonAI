@@ -53,6 +53,7 @@ def detect_backdoor_by_activation_clustering(model: torch.nn.Module, dataloader:
     # 1. Extract activations
     activations = get_activations(model, dataloader, device)
     LOGGER.info(f"Extracted activations of shape: {activations.shape}")
+                                                 
 
     # 2. Use Isolation Forest to find outliers in the activation space
     iforest = IsolationForest(contamination=contamination, random_state=42, n_jobs=-1)
